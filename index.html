@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+         <link rel="stylesheet" href="./src/css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="./src/css/flatly.min.css"/>
+        <link rel="stylesheet" href="./src/css/all.min.css"/>
+        <title></title>
+    </head>
+    <body class="bg-light">
+        <section class="container mt-4 bg-white p-2">
+            <h6 class="border-bottom pt-2 pb-2 mb-4">
+               <i class="fas fa-bookmark"></i>
+               <span>Marcadores</span>
+            </h6>
+            <section class="alert-marcador"></section>
+            <form action="#" class="form-marcador">
+                <div class="input-group mb-3">
+                    <input type="url" class="form-control url-marcador"  placeholder="Digitar a url">
+                    <div class="input-group-append">
+                      <button class="btn btn-outline-primary button-marcador" type="submit">
+                        <i class="fas fa-save"></i>
+                        <span>salvar</span>
+                      </button>
+                    </div>
+                  </div>                  
+            </form>
+            <section class="marcadores"></section>
+            <section id="controles">
+                <button class="btn btn-outline-danger eliminar-marcador-button" type="button">
+                    <i class="fas fa-save"></i>
+                    <span>salvar</span>
+                  </button>
+            </section>
+        </section>
+        <script src="./src/js/bootstrap.bundle.min.js"></script>
+        <script src="./src/js/all.min.js"></script>
+        <script src="./src/js/render.js"></script>
+    </body>
+</html>
